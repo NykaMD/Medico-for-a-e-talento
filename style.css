@@ -5,3 +5,8 @@
 body{
     background-color: black;
 }
+@media only screen and (max-width: 620px) {
+    .container, .center, .right, .left {
+      width: 100%;
+    }
+  }
